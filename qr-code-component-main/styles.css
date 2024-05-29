@@ -1,0 +1,34 @@
+/* styles.css */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: lightgrey; /* Light grey background */
+  }
+  
+  .custom-card {
+    background-color: white;
+    border-radius: 15px; /* Rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add some shadow to the card */
+    max-width: 350px; /* Max width to keep the card responsive */
+    width: 100%; /* Make the card responsive */
+    padding: 15px; /* Padding inside the card */
+  }
+  
+  .card-img-top {
+    border-radius: 10px; /* Rounded edges for the image */
+    margin-bottom: 15px; /* Space between image and text */
+  }
+
+  .card-title {
+    font-family: 'Daikon', sans-serif; /* Apply Daikon Black font */
+    font-weight: 700; /* Bold */
+  }
+  
+  .card-text {
+    font-family: 'Lincoln Road', sans-serif; /* Apply Lincoln Road Regular font */
+    color: grey; /* Grey color */
+  }
+  
+  
+  
